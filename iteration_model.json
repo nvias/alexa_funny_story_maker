@@ -1,0 +1,140 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "how can I use this skill",
+          "what should I do"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "no"
+        ]
+      },
+      {
+        "name": "DontKnow",
+        "samples": [
+          "I don't know",
+          "I'm lost"
+        ],
+        "slots": []
+      },
+      {
+        "name": "IAnimal",
+        "samples": [
+          "I pick {Animal} a Animal.",
+          "The animal is {Animal}",
+          "My animal is {Animal}",
+          "{Animal}",
+          "change the animal to {Animal}"
+        ],
+        "slots": [
+          {
+            "name": "Animal",
+            "type": "AMAZON.Animal"
+          }
+        ]
+      },
+      {
+        "name": "IColor",
+        "samples": [
+          "I like {Color} color.",
+          "The color is {Color}",
+          "{Color}",
+          "change to color to {Color}"
+        ],
+        "slots": [
+          {
+            "name": "Color",
+            "type": "AMAZON.Color"
+          }
+        ]
+      },
+      {
+        "name": "IPerson",
+        "samples": [
+          "I select {Person} as a person",
+          "My favorit person is {Person}",
+          "{Person}",
+          "change the person to {Person}"
+        ],
+        "slots": [
+          {
+            "name": "Person",
+            "type": "AMAZON.Person"
+          }
+        ]
+      },
+      {
+        "name": "IRoom",
+        "samples": [
+          "I select {Room} a room.",
+          "I said room is {Room}",
+          "{Room}",
+          "change to room to {Room}"
+        ],
+        "slots": [
+          {
+            "name": "Room",
+            "type": "AMAZON.Room"
+          }
+        ]
+      },
+      {
+        "name": "New",
+        "samples": [
+          "Create new story",
+          "let's create a new one",
+          "Made up a new story",
+          "I want to create new one"
+        ],
+        "slots": []
+      },
+      {
+        "name": "RepeatStory",
+        "samples": [
+          "repeat the story",
+          "tell me the story once more",
+          "yes please",
+          "yes"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Selection",
+        "samples": [
+          "I choise animal {Animal} color {Color} comic {Person} and room {Room}",
+          "I pick {Animal}  {Color}  {Person} and {Room}",
+          "My selection is {Animal} as animal {Color} as color {Person} as person and {Room} as room"
+        ],
+        "slots": [
+          {
+            "name": "Animal",
+            "type": "AMAZON.Animal"
+          },
+          {
+            "name": "Color",
+            "type": "AMAZON.Color"
+          },
+          {
+            "name": "Person",
+            "type": "AMAZON.Person"
+          },
+          {
+            "name": "Room",
+            "type": "AMAZON.Room"
+          }
+        ]
+      }
+    ],
+    "invocationName": "create funny story"
+  }
+}
+
